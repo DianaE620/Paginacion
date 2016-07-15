@@ -1,0 +1,74 @@
+.container {
+  margin: 0 auto;
+  width: 768px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+small.page_no {
+  float: right;
+  color: #ddd;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline;
+  width: 20px;
+  border: 1px solid #566270;
+  float: left;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/*De esta manera se selecciona a mas de un ntc:child */
+/*ul li:nth-child(1), li:nth-child(7){
+  width: 80px; 
+  border-radius: 7px 0 0 7px; 
+}*/
+
+ul li:nth-child(1){
+  width: 80px; 
+  border-radius: 7px 0 0 7px; 
+}
+
+ul li:nth-child(7){
+  width: 80px; 
+  border-radius: 0 7px 7px 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: #566270;
+}
+
+.active {
+  background-color: #bdc3c7;
+}
+
+.last {
+  color: #566270;
+}
+
+.first {
+  color: #566270;
+}
+
+.disabled {
+  color: #bdc3c7;
+}
+

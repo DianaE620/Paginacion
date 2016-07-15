@@ -1,0 +1,23 @@
+.container {
+  margin: 0 auto;
+  width: 768px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+small.page_no {
+  float: right;
+  color: #ddd;
+}
+
+ul li {
+  display: inline-block;
+  width: 4%;
+}
